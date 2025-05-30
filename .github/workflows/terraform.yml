@@ -31,12 +31,12 @@ jobs:
       
       - name: Terraform init
         run: terraform init
-        working-directory: ./cap15
+        #working-directory: ./cap15
 
       - name: Terraform Plan
         run: terraform plan
-        working-directory: ./cap15
+        #working-directory: ./cap15
 
       - name: Terraform apply
         run: terraform apply -auto-approve
-        working-directory: ./cap15
+        #working-directory: ./cap15
